@@ -262,6 +262,7 @@ header{
     position: absolute;
     left: 65px;
     top: 5px;
+    display: flex;
 }
 
 .workRate img{
@@ -288,7 +289,7 @@ header{
 .info2{
     line-height: 70px;
     letter-spacing: 5px;
-    padding-left: 350px;
+    padding-left: 200px;
     max-width: 1000px;
 }
 
