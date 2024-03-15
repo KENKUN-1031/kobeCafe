@@ -165,8 +165,12 @@ header{
     100% { translate: calc(-100%); }
 }
 
-.blueBottleContents{
+.brownContents{
     background-color: #4A4634;
+    z-index: 0;
+}
+.creamContents{
+    background-color: #C9B492;
     z-index: 0;
 }
 
@@ -195,6 +199,9 @@ header{
     color: #F9F3EC;
     z-index: 5;
 }
+#keshipearl .title h2{
+    color: #423706;
+}
 .title span{
     font-size: 20px;
 }
@@ -210,6 +217,10 @@ header{
     line-height: 70px;
 }
 
+#keshipearl .desc p{
+    color: #423706;
+}
+
 .mainImg img{
     width: 650px;
     height: 356px;
@@ -222,6 +233,9 @@ header{
     font-size: 20px;
     color: #F9F3EC;
     margin-top: 100px;
+}
+#keshipearl .info{
+    color: #423706;
 }
 
 .info1{
@@ -270,11 +284,16 @@ header{
     line-height: 70px;
     letter-spacing: 5px;
     padding-left: 350px;
+    max-width: 1000px;
 }
 
 .eachPoint{
     display: flex;
     padding-left: 10px;
+}
+
+.eachPoint img{
+    padding-bottom: 65px;
 }
 
 .eachPoint p{
@@ -283,7 +302,9 @@ header{
 
 .info3{
 }
-
+.wave{
+    background-color: #F9F3EC
+}
 .wave img{
     width: 100%;
 }
