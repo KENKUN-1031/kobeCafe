@@ -11,6 +11,7 @@
 header{
     height: 100vh;
     padding-top: 17vh;
+    background-color: #F9F3EC;
 }
 
 .bg-switcher{
@@ -26,7 +27,7 @@ header{
 .catchPhrase{
     background-color: #B48A46;
     height: 83px;
-    width: 1242px;
+    max-width: 1242px;
     margin: 0 auto;
     text-align: center;
     padding-top: 25px;
@@ -137,6 +138,25 @@ header{
     bottom: -10%;
     right: 40%;
     z-index: -1;
+}
+
+
+
+.label{
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 85px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #4A4634;
+}
+.label-inner{
+    animation: label 5s linear infinite;
+}
+@keyframes label {
+    0%   { translate: 0; }
+    100% { translate: calc(-100%); }
 }
 
 
