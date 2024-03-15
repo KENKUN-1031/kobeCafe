@@ -15,12 +15,14 @@ header{
 }
 
 .bg-switcher{
-    background-image: url("/img/test.png");
-    height: 690px;
+    background-image: url("/images/test.png");
+    background-position: center center;
+    background-size: cover;    
+    max-height: 690px;
     max-width: 1242px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
-    /* padding-top: 17vh; */
-    /* margin-top: 17vh; */
     position: relative;
 }
 
@@ -103,17 +105,17 @@ header{
 }
 
 .tallBluebottle{
-    background-image: url("/img/tall/tallBluebottle.png");
+    background-image: url("/images/tall/tallBluebottle.png");
     z-index: 10;
 }
 .tallKeshpearl{
-    background-image: url("/img/tall/tallKeshpearl.png");
+    background-image: url("/images/tall/tallKeshpearl.png");
 }
 .tallCoq1f{
-    background-image: url("/img/tall/tallCoq1f.png");
+    background-image: url("/images/tall/tallCoq1f.png");
 }
 .tallZoe{
-    background-image: url("/img/tall/tallZoe.png");
+    background-image: url("/images/tall/tallZoe.png");
 }
 
 .singleCafe p{
