@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #F9F3EC; */
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+header{
+    height: 100vh;
+    padding-top: 17vh;
+}
+
+.bg-switcher{
+    background-image: url("/img/test.png");
+    height: 690px;
+    max-width: 1242px;
+    margin: 0 auto;
+    /* padding-top: 17vh; */
+    /* margin-top: 17vh; */
+    position: relative;
+}
+
+.catchPhrase{
+    background-color: #B48A46;
+    height: 83px;
+    width: 1242px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25px;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.titleBox{
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}
+
+.titleBox p{
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+}
+
+.cafeName{
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+}
+
+.cafeName p{
+    color: #FFFFFF;
+    font-size: 17px;
+    letter-spacing: 5px;
+}
+
+#cafeList{
+    background-color: #C58015;
+    height: 912px;
+}
+
+/* cafeList container */
+.container{
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.subDetails{
+    margin: 0 auto;
+    padding-top: 94px;
+    max-width: 858px;
+    padding-bottom: 93px;
+}
+
+.subDetails p{
+    line-height: 45px;
+    color: #FFFFFF;
+    font-size: 17px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.eachCafe{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+}
+
+.eachCafe a{
+    position: relative;
+    z-index: 10;
+}
+
+.singleCafe{
+    height: 403px;
+    width: 263px;
+    /* position: relative; */
+}
+
+.tallBluebottle{
+    background-image: url("/img/tall/tallBluebottle.png");
+    z-index: 10;
+}
+.tallKeshpearl{
+    background-image: url("/img/tall/tallKeshpearl.png");
+}
+.tallCoq1f{
+    background-image: url("/img/tall/tallCoq1f.png");
+}
+.tallZoe{
+    background-image: url("/img/tall/tallZoe.png");
+}
+
+.singleCafe p{
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+.background{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(43,43,43,0.5);
+    height: 38px;
+    width: 263px;
+}
+
+.arrow{
+    position: absolute;
+    bottom: -10%;
+    right: 40%;
+    z-index: -1;
+}
+
+
+/* word-break: normal; */
