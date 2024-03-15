@@ -321,5 +321,54 @@ header{
     width: 100%;
 }
 
+footer{
+    background-color: #F9F3EC;
+    padding-top: 200px;
+}
 
-/* word-break: normal; */
+.sectionList{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.sectionList a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #4A4634;
+}
+
+.footerCafeList{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerCafeList{
+    text-align: center;
+}
+
+.footerSingleCafe a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #4A4634;
+}
+
+.footerCafeList a p{
+    padding-bottom: 27px;
+}
+
+.footerCafeList a img{
+    max-height: 65px;
+}
+
+.copyright{
+    margin-top: 43px;
+    padding-bottom: 40px;
+}
+
+.copyright p{
+    font-size: 20px;
+    text-align: center;
+}
+
