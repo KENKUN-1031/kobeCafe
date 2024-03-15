@@ -194,6 +194,8 @@ header{
     position: absolute;
     left: -25px;
     top: -15px;
+    top: -9%;
+    left: 22%;
     z-index: 1;
     opacity: 0.8;
 
@@ -256,12 +258,15 @@ header{
 }
 .workRate{
     display: flex;
-    position: relative
+    position: relative;
+    text-align: center;
+    align-items: center;
 }
 .cups{
-    position: absolute;
-    left: 65px;
-    top: 5px;
+    /* position: absolute; */
+    /* left: 65px;
+    top: 5px; */
+    padding-bottom:10px; 
     display: flex;
 }
 
@@ -289,8 +294,8 @@ header{
 .info2{
     line-height: 70px;
     letter-spacing: 5px;
-    padding-left: 200px;
-    max-width: 1000px;
+    padding-left: 20%;
+    max-width: 60%;
 }
 
 .eachPoint{
@@ -314,6 +319,13 @@ header{
 }
 
 .info3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.info3 img{
+    height: 125px;
+    width: 125px;
 }
 .wave{
     background-color: #F9F3EC

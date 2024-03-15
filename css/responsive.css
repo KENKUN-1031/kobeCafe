@@ -1,0 +1,175 @@
+@media (max-width: 450px){
+    header{
+        padding-top: 5vh;
+    }
+    .bg-switcher{
+        max-height: 850px;
+    }
+    .catchPhrase{
+        font-size: 12px;
+    }
+    .titleBox p{
+        font-size: 18px;
+    }
+    .cafeName p{
+        font-size: 15px;
+    }
+    .eachCafe{
+        flex-direction: column;
+        /* justify-content: space-between; */
+        height: 650px;
+    }
+
+    .tallBluebottle{
+        background-image: url("/images/wide/bluebottle.svg");
+    }
+    .tallZoe{
+        background-image: url("/images/wide/widezoe.svg");
+    }
+
+    .subDetails{
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+    .subDetails p{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .singleCafe{
+    width: 80vw;
+    max-height: 140px;
+    }
+    .background{
+        width: 94.5%
+    }
+    .arrow{
+        display: none;
+    }
+    .label{
+        font-size: 45px;
+    }
+
+
+    .main{
+        flex-direction: column;
+    }
+    .title{
+        justify-content: center;
+    }
+    .title img{
+        /* max-width: 30px; */
+        max-height: 50px;
+        top: -9%;
+        left: 22%;
+
+    }
+    .title h2{
+        font-size: 35px;
+    }
+    .title span{
+        font-size: 10px;
+        display:block;
+        margin-left: 35%;
+    }
+    .desc{
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .desc p{
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .mainImg img{
+        width: 100%;
+        max-height: 210px;
+    }
+
+
+    .info{
+        font-size: 12px;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .info1{
+        max-width: 100%;
+        padding-bottom: 11px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .info1-sec1{
+        line-height: 11px;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+    .long-mood{
+        max-width: 60%;
+        line-height: 20px;
+    }
+    .info1-sec2{
+        line-height: 11px;
+    }
+    .info1-sec3{
+        line-height: 11px;
+    }
+    .info1-sec3 p:last-child{
+        padding-right: 3%;
+    }
+    .workRate img{
+        width: 19px;
+        height: 19px;
+    }
+    .cups{
+        top: -65%;
+        left: 70%;
+    }
+
+    .info2{
+        line-height: 30px;
+        max-width: 100%;
+        padding-left: 0px;
+        letter-spacing: 1px;
+    }
+    .info3{
+        flex-direction: row;
+    }
+    .info3 img{
+        height: 60px;
+        width: 60px;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+
+    footer{
+        padding-top: 100px;
+    }
+    .sectionList a{
+        font-size: 12px;
+    }
+
+    .footerCafeList{
+        margin-top: 50px;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .footerCafeList a img{
+        max-height: 40px;
+    }
+    .footerCafeList a p{
+        padding-bottom: 10px;
+    }
+    .footerSingleCafe{
+        flex-basis: 50%;
+    }
+    .footerSingleCafe a{
+        font-size: 12px;
+    }
+
+    .copyright p{
+        font-size: 10px;
+    }
+
+}
