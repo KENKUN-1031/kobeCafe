@@ -6,6 +6,14 @@
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 700;
     font-style: normal;
+    scroll-behavior: smooth;
+}
+
+
+/* cafeList container */
+.container{
+    max-width: 85vw;
+    margin: 0 auto;
 }
 
 header{
@@ -66,12 +74,6 @@ header{
     height: 912px;
 }
 
-/* cafeList container */
-.container{
-    max-width: 90vw;
-    margin: 0 auto;
-}
-
 .subDetails{
     margin: 0 auto;
     padding-top: 94px;
@@ -89,8 +91,8 @@ header{
 
 .eachCafe{
     display: flex;
-    justify-content: space-around;
-    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-between;
 }
 
 .eachCafe a{
@@ -105,17 +107,18 @@ header{
 }
 
 .tallBluebottle{
-    background-image: url("/images/tall/tallBluebottle.png");
+    background-image: url("/images/tall/tallBluebottle.svg");
+    object-fit: cover;
     z-index: 10;
 }
 .tallKeshpearl{
-    background-image: url("/images/tall/tallKeshpearl.png");
+    background-image: url("/images/tall/tallKeshpearl.svg");
 }
 .tallCoq1f{
-    background-image: url("/images/tall/tallCoq1f.png");
+    background-image: url("/images/tall/tallCoq1f.svg");
 }
 .tallZoe{
-    background-image: url("/images/tall/tallZoe.png");
+    background-image: url("/images/tall/tallZoe.svg");
 }
 
 .singleCafe p{
@@ -149,9 +152,10 @@ header{
     white-space: nowrap;
     overflow: hidden;
     font-size: 85px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 30px;
     color: #4A4634;
+    background-color: #F9F3EC;
 }
 .label-inner{
     animation: label 5s linear infinite;
@@ -159,6 +163,129 @@ header{
 @keyframes label {
     0%   { translate: 0; }
     100% { translate: calc(-100%); }
+}
+
+.blueBottleContents{
+    background-color: #4A4634;
+    z-index: 0;
+}
+
+.main{
+    display: flex;
+    padding-top: 72px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.title{
+    display: flex;
+    position: relative;
+}
+.title img{
+    position: absolute;
+    left: -25px;
+    top: -15px;
+    z-index: 1;
+    opacity: 0.8;
+
+}
+.title h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: #F9F3EC;
+    z-index: 5;
+}
+.title span{
+    font-size: 20px;
+}
+
+.desc{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+.desc p{
+    color: #F9F3EC;
+    font-size: 25px;
+    line-height: 70px;
+}
+
+.mainImg img{
+    width: 650px;
+    height: 356px;
+    object-fit: cover;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #F9F3EC;
+    margin-top: 100px;
+}
+
+.info1{
+    max-width: 513px;
+    padding-bottom: 100px;
+    letter-spacing: 5px;
+}
+
+.info1-sec1{
+    display: flex;
+    flex-direction: column;
+    line-height: 70px;
+}
+.workRate{
+    display: flex;
+    position: relative
+}
+.cups{
+    position: absolute;
+    left: 65px;
+    top: 5px;
+}
+
+.workRate img{
+    width: 35px;
+    height: 38px;
+}
+
+.info1-sec2{
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+}
+
+.info1-sec3{
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+}
+
+.info1-sec3 p:last-child{
+    padding-right: 25px;
+}
+
+.info2{
+    line-height: 70px;
+    letter-spacing: 5px;
+    padding-left: 350px;
+}
+
+.eachPoint{
+    display: flex;
+    padding-left: 10px;
+}
+
+.eachPoint p{
+    padding-left: 15px;
+}
+
+.info3{
+}
+
+.wave img{
+    width: 100%;
 }
 
 
