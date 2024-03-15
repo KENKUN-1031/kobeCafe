@@ -304,6 +304,9 @@ header{
 #coq1f .eachPoint img{
     padding-bottom: 65px;
 }
+#zoe .eachPoint:nth-child(2) img{
+    padding-bottom: 65px;
+}
 
 .eachPoint p{
     padding-left: 15px;
