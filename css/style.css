@@ -7,6 +7,7 @@
     font-weight: 700;
     font-style: normal;
     scroll-behavior: smooth;
+    word-break: normal;
 }
 
 
@@ -152,10 +153,14 @@ header{
     white-space: nowrap;
     overflow: hidden;
     font-size: 85px;
-    padding-top: 25px;
+    /* padding-top: 25px; */
     padding-bottom: 30px;
     color: #4A4634;
     background-color: #F9F3EC;
+}
+
+#bluebottle .label{
+    padding-top: 25px;
 }
 .label-inner{
     animation: label 5s linear infinite;
@@ -199,7 +204,7 @@ header{
     color: #F9F3EC;
     z-index: 5;
 }
-#keshipearl .title h2{
+.creamContents .title h2{
     color: #423706;
 }
 .title span{
@@ -217,7 +222,7 @@ header{
     line-height: 70px;
 }
 
-#keshipearl .desc p{
+.creamContents .desc p{
     color: #423706;
 }
 
@@ -234,7 +239,7 @@ header{
     color: #F9F3EC;
     margin-top: 100px;
 }
-#keshipearl .info{
+.creamContents .info{
     color: #423706;
 }
 
@@ -292,7 +297,11 @@ header{
     padding-left: 10px;
 }
 
-.eachPoint img{
+#keshipearl .eachPoint img{
+    padding-bottom: 65px;
+}
+
+#coq1f .eachPoint img{
     padding-bottom: 65px;
 }
 
