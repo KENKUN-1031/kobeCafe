@@ -35,6 +35,10 @@ header{
     position: relative;
 }
 
+.bg-switcher > div {
+    z-index: 0 !important;
+}
+
 .catchPhrase{
     background-color: #B48A46;
     height: 83px;
